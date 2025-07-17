@@ -17,10 +17,10 @@ from matplotlib.ticker import FormatStrFormatter
 
 
 # Define paths
-LIG_attribution_file = '/netscratch/fguermazi/XAI/utils_generated_files/LIG_attribution_output_MBertLstm.jsonl' #CHANGE PATH IF NEEDED
-IG_attribution_file = '/netscratch/fguermazi/XAI/utils_generated_files/IG_attribution_output_MBertLstm.jsonl' #CHANGE PATH IF NEEDED
-LayerDeepLift_attribution_file = '/netscratch/fguermazi/XAI/utils_generated_files/DeepLift_attribution_output_MBertLstm.jsonl' #CHANGE PATH IF NEEDED
-SHAP_attribution_file = '/netscratch/fguermazi/XAI/utils_generated_files/SHAP_attribution_output_MBertLstm.jsonl' #CHANGE PATH IF NEEDED
+LIG_attribution_file = 'utils_generated_files/LIG_attribution_output_MBertLstm.jsonl' 
+IG_attribution_file = 'utils_generated_files/IG_attribution_output_MBertLstm.jsonl' 
+LayerDeepLift_attribution_file = 'utils_generated_files/DeepLift_attribution_output_MBertLstm.jsonl' 
+SHAP_attribution_file = 'utils_generated_files/SHAP_attribution_output_MBertLstm.jsonl' 
 hdf5_path = "/netscratch/fguermazi/XAI/data/mortality/splits.hdf5" #CHANGE PATH IF NEEDED
 
 # Load attribution files
