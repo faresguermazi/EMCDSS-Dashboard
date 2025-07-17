@@ -14,10 +14,10 @@ import string
 #GROUP_NAME = "with_notes"
 TOKENIZER = AutoTokenizer.from_pretrained("bert-base-uncased")
 # Load train embeddings
-with open("/netscratch/fguermazi/XAI/utils_generated_files/train_data.json", "r") as f: #CHANGE PATH FOR CLUSTER
+with open("utils_generated_files/train_data.json", "r") as f: #CHANGE PATH FOR CLUSTER
     train_data = json.load(f)
 # Load test embeddings
-with open("/netscratch/fguermazi/XAI/utils_generated_files/test_data.json", "r") as f: #CHANGE PATH FOR CLUSTER
+with open("utils_generated_files/test_data.json", "r") as f: #CHANGE PATH FOR CLUSTER
     test_data = json.load(f)
 
 
