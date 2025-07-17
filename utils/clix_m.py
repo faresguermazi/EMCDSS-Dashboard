@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # File path to save feedback
-file_path = Path("/netscratch/fguermazi/XAI/utils_generated_files/clixm_feedback.jsonl") #CHANGE PATH IF NEEDED
+file_path = Path("XAI/utils_generated_files/clixm_feedback.jsonl") #CHANGE PATH IF NEEDED
 
 # CLIX-M checklist items with associated user roles
 clixm_items = [
