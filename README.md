@@ -1,4 +1,4 @@
-# EMCDSS-Dashboard: Explainable Multimodal Clinical Decision Support System
+# 🧠 EMCDSS-Dashboard: Explainable Multimodal Clinical Decision Support System
 
 ## Overview
 
