@@ -47,7 +47,7 @@ from utils.clix_m import load_clixm_items, save_clixm_feedback
 import datetime
 
 
-prediction_df = pd.read_csv("/netscratch/fguermazi/XAI/utils_generated_files/evaluation_predictions.csv")
+prediction_df = pd.read_csv("utils_generated_files/evaluation_predictions.csv")
 
 # Setup
 st.set_page_config(page_title="Exp-MCDSS", layout="wide")
